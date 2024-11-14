@@ -42,9 +42,9 @@ jobs:
 
       # TASK 2 - Run all tests in the repository using run-build action
       - name: Run all tests using buildtool
-         uses: matlab-actions/run-build@v2
-         with:
-           tasks: test
+        uses: matlab-actions/run-build@v2
+        with:
+          tasks: test
 
       # - name: Upload test results
       #   uses: actions/upload-artifact@v4
